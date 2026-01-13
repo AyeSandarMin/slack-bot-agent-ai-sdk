@@ -8,7 +8,7 @@ export const generateResponse = async (
   updateStatus?: (status: string) => void,
 ) => {
   const { text } = await generateText({
-    model: google("gemini-1.5-flash"),
+    model: google("gemini-2.5-flash"),
     system: `You are a Slack bot assistant. Keep your responses concise and to the point.
     - Do not tag users.
     - Current date is: ${new Date().toISOString().split('T')[0]}
