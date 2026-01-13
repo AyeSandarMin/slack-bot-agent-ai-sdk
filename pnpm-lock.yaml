@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@ai-sdk/openai':
         specifier: ^1.1.14
-        version: 1.1.15(zod@3.24.2)
+        version: 1.1.15(zod@4.3.5)
       '@ai-sdk/xai':
         specifier: ^3.0.21
-        version: 3.0.21(zod@3.24.2)
+        version: 3.0.21(zod@4.3.5)
       '@slack/web-api':
         specifier: ^7.0.2
         version: 7.8.0
@@ -22,13 +22,13 @@ importers:
         version: 2.0.0
       ai:
         specifier: ^6.0.33
-        version: 6.0.33(zod@3.24.2)
+        version: 6.0.33(zod@4.3.5)
       exa-js:
         specifier: ^1.4.10
         version: 1.4.10
       zod:
-        specifier: ^3.24.2
-        version: 3.24.2
+        specifier: ^4.3.5
+        version: 4.3.5
     devDependencies:
       '@types/node':
         specifier: ^20.11.17
@@ -311,45 +311,45 @@ packages:
   whatwg-url@5.0.0:
     resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
 
-  zod@3.24.2:
-    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+  zod@4.3.5:
+    resolution: {integrity: sha512-k7Nwx6vuWx1IJ9Bjuf4Zt1PEllcwe7cls3VNzm4CQ1/hgtFUK2bRNG3rvnpPUhFjmqJKAKtjV576KnUkHocg/g==}
 
 snapshots:
 
-  '@ai-sdk/gateway@3.0.13(zod@3.24.2)':
+  '@ai-sdk/gateway@3.0.13(zod@4.3.5)':
     dependencies:
       '@ai-sdk/provider': 3.0.2
-      '@ai-sdk/provider-utils': 4.0.5(zod@3.24.2)
+      '@ai-sdk/provider-utils': 4.0.5(zod@4.3.5)
       '@vercel/oidc': 3.1.0
-      zod: 3.24.2
+      zod: 4.3.5
 
-  '@ai-sdk/openai-compatible@2.0.8(zod@3.24.2)':
+  '@ai-sdk/openai-compatible@2.0.8(zod@4.3.5)':
     dependencies:
       '@ai-sdk/provider': 3.0.2
-      '@ai-sdk/provider-utils': 4.0.5(zod@3.24.2)
-      zod: 3.24.2
+      '@ai-sdk/provider-utils': 4.0.5(zod@4.3.5)
+      zod: 4.3.5
 
-  '@ai-sdk/openai@1.1.15(zod@3.24.2)':
+  '@ai-sdk/openai@1.1.15(zod@4.3.5)':
     dependencies:
       '@ai-sdk/provider': 1.0.9
-      '@ai-sdk/provider-utils': 2.1.10(zod@3.24.2)
-      zod: 3.24.2
+      '@ai-sdk/provider-utils': 2.1.10(zod@4.3.5)
+      zod: 4.3.5
 
-  '@ai-sdk/provider-utils@2.1.10(zod@3.24.2)':
+  '@ai-sdk/provider-utils@2.1.10(zod@4.3.5)':
     dependencies:
       '@ai-sdk/provider': 1.0.9
       eventsource-parser: 3.0.0
       nanoid: 3.3.8
       secure-json-parse: 2.7.0
     optionalDependencies:
-      zod: 3.24.2
+      zod: 4.3.5
 
-  '@ai-sdk/provider-utils@4.0.5(zod@3.24.2)':
+  '@ai-sdk/provider-utils@4.0.5(zod@4.3.5)':
     dependencies:
       '@ai-sdk/provider': 3.0.2
       '@standard-schema/spec': 1.1.0
       eventsource-parser: 3.0.6
-      zod: 3.24.2
+      zod: 4.3.5
 
   '@ai-sdk/provider@1.0.9':
     dependencies:
@@ -359,12 +359,12 @@ snapshots:
     dependencies:
       json-schema: 0.4.0
 
-  '@ai-sdk/xai@3.0.21(zod@3.24.2)':
+  '@ai-sdk/xai@3.0.21(zod@4.3.5)':
     dependencies:
-      '@ai-sdk/openai-compatible': 2.0.8(zod@3.24.2)
+      '@ai-sdk/openai-compatible': 2.0.8(zod@4.3.5)
       '@ai-sdk/provider': 3.0.2
-      '@ai-sdk/provider-utils': 4.0.5(zod@3.24.2)
-      zod: 3.24.2
+      '@ai-sdk/provider-utils': 4.0.5(zod@4.3.5)
+      zod: 4.3.5
 
   '@opentelemetry/api@1.9.0': {}
 
@@ -403,13 +403,13 @@ snapshots:
 
   '@vercel/oidc@3.1.0': {}
 
-  ai@6.0.33(zod@3.24.2):
+  ai@6.0.33(zod@4.3.5):
     dependencies:
-      '@ai-sdk/gateway': 3.0.13(zod@3.24.2)
+      '@ai-sdk/gateway': 3.0.13(zod@4.3.5)
       '@ai-sdk/provider': 3.0.2
-      '@ai-sdk/provider-utils': 4.0.5(zod@3.24.2)
+      '@ai-sdk/provider-utils': 4.0.5(zod@4.3.5)
       '@opentelemetry/api': 1.9.0
-      zod: 3.24.2
+      zod: 4.3.5
 
   asynckit@0.4.0: {}
 
@@ -572,4 +572,4 @@ snapshots:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
 
-  zod@3.24.2: {}
+  zod@4.3.5: {}
