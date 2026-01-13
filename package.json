@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
     "@ai-sdk/openai": "^1.1.14",
     "@ai-sdk/xai": "^3.0.21",
